@@ -7,6 +7,10 @@ Document:
  - document object has many useful methods defined on it.
  - For example, document.getElementById(), document.getElementByTagName(), document.createElement(), document.querySelector() and many more
  - document API
+      syntax:
+            document.propertyname    (or)
+            window.document.propertyname
+      Example:  document.bgColor = "rgb(89, 135, 235)"; 
 
 Window object:
 
@@ -16,3 +20,7 @@ Window object:
  - Writing alert() is similar to window.alert()
  - Also, properties like document, location are properties of the window object.
  - window API
+          syntax:
+               window.propertyname;
+
+          Example:  window.document.bgColor = "aqua"; 
